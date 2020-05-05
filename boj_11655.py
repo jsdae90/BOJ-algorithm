@@ -67,6 +67,7 @@ for i in range(len(line)):
         if idx > 25:
             idx %= 25 + 1
         line[i] = upper_case[idx]
+
     elif line[i] in lower_case:
         idx = lower_case.index(line[i])
         idx += 13
