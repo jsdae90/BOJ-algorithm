@@ -61,6 +61,7 @@ lower_case = [
 line = list(sys.stdin.readline().rstrip())
 
 for i in range(len(line)):
+
     if line[i] in upper_case:
         idx = upper_case.index(line[i])
         idx += 13
