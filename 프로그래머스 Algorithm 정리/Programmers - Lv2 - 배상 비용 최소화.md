@@ -78,7 +78,7 @@ def solution(N, works):
 
 N이 더 작을 경우, 문제 해결에 max heap을 사용하기 위해 works의 요소들을 `(-i, i)`로 변환한다.
 
-그 후, heap을 적용하여 works를 max heap으로 적용시키며
+그 후, heapq.heapify를 이용해 works를 heap으로 적용시키며
 
 N만큼 반복문을 돌며 N을 돌때마다 1시간의 작업량 부분이기에, (-i, i)중 실제 작업량을 표현하는
 
