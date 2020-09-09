@@ -71,7 +71,7 @@ def solution(N, works):
 또한, 피드백을 통해 return 부분의 코드를 더욱 간결하게 작성했다.
 
 
-<br></br>
+<br>
 
 #### 문제 풀이
 
