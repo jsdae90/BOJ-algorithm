@@ -1,4 +1,4 @@
-### Programmers -Lv3.5 - 게임 맵 최단거리
+### Programmers - Lv3.5 - 게임 맵 최단거리
 
 #### 문제설명
 
